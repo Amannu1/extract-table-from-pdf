@@ -13,6 +13,12 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  <repositories>
+    <repository>
+      <id>com.e-iceblue</id>
+      <url>https://repo.e-iceblue.com/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -26,11 +32,11 @@
       <artifactId>itextpdf</artifactId>
       <version>5.5.13.4</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/e-iceblue/spire.pdf -->
+    <!-- Source: https://mvnrepository.com/artifact/e-iceblue/spire.pdf -->
     <dependency>
       <groupId>e-iceblue</groupId>
       <artifactId>spire.pdf</artifactId>
-      <version>11.2.3</version>
+      <version>11.12.16</version>
     </dependency>
   </dependencies>
 </project>
